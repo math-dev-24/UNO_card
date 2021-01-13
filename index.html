@@ -1,0 +1,99 @@
+<div class="card_border">
+    <div class="card green">
+        <div class="body_card">
+            <div class="centreNumber">8</div>
+        </div>
+    </div>
+</div>
+<div class="card_border">
+    <div class="card red">
+        <div class="body_card">
+            <div class="centreNumber">2</div>
+        </div>
+    </div>
+</div>
+<div class="card_border">
+    <div class="card black">
+        <div class="back">
+            <div class="centreNumber"></div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .card_border {
+        height: 85px;
+        width: 60px;
+        border-radius: 10px 10px 10px 10px;
+        border: solid 1px rgba(0, 0, 0, 0.671);
+        background: white;
+        margin: 10px;
+        box-shadow: 2px 2px 1px black;
+    }
+
+    .card {
+        overflow: hidden;
+        position: absolute;
+        margin: 5px;
+        width: 50px;
+        height: 75px;
+        border-radius: 10px;
+    }
+
+    .body_card {
+        display: block;
+        border-radius: 60px 10px 60px 10px;
+        height: 60px;
+        width: 49px;
+        border: 1px solid white;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 5px;
+
+    }
+
+    .centreNumber {
+        padding-top: 15px;
+        padding-left: 19px;
+        font-size: 1.5em;
+        text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .back {
+        display: block;
+        background-color: red;
+        border-radius: 70px 10px 70px 10px;
+        height: 60px;
+        width: 49px;
+        border: 1px solid red;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    .red {
+        background-color: red;
+        color: red;
+    }
+
+    .blue {
+        background-color: blue;
+        color: blue;
+    }
+
+    .green {
+        background-color: green;
+        color: green;
+    }
+
+    .orange {
+        background-color: orange;
+        color: orange;
+    }
+
+    .black {
+        background-color: black;
+    }
+</style>
